@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
+
+   <head jsf:id="head">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <title>SGP</title>
+
+        <link rel="stylesheet" type="text/css"
+              href="#{request.contextPath}/resources/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <h:outputStylesheet name="css/stylesheet.css"/>
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+ <h:body>
+         <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/SGP/index.xhtml">Cadastro</a>
+                        <a class="navbar-brand" href="/SGP/login.xhtml">Login</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+     <p:dataTable var="cadastro" value="#{cadastroBean.cadastros}" style="width:800px;">
+		<p:column headerText="Nome">
+                    <h:outputText value="#{cadastro.nome}" />
+		</p:column>
+
+		<p:column headerText="Endereço">
+                    <h:outputText value="#{cadastro.logradouro}" />
+		</p:column>
+
+		<p:column headerText="Numero">
+                    <h:outputText value="#{cadastro.numero}" />
+		</p:column>
+
+		<p:column headerText="CPF">
+			<h:outputText value="#{cadastro.cpf}" />
+		</p:column>
+
+		<p:column headerText="Cidade">
+                    <h:outputText value="#{cadastro.cidade}" />
+		</p:column>
+		
+		
+		<p:column headerText="Estado">
+                    <h:outputText value="#{cadastro.estado}" />
+		</p:column>
+				
+		<p:column headerText="Data Nascimento">
+                    <h:outputText value="#{cadastro.dataNascimento}" >
+				<f:convertDateTime pattern="dd/MM/yyyy" />
+			</h:outputText>
+		</p:column>
+				
+	</p:dataTable>
+
+
+
+</h:body>
+</html>
