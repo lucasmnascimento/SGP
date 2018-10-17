@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.devmedia.java.cadastro.model.dao;
+package br.com.SGP.model.dao;
 
-import br.com.devmedia.java.cadastro.model.entities.Usuario;
+import br.com.SGP.model.entities.Usuario;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.NoResultException;

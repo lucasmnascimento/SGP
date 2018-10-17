@@ -1,4 +1,4 @@
-package br.com.devmedia.java.cadastro.exception;
+package br.com.SGP.exception;
 
 import javax.faces.context.ExceptionHandler;
 import javax.faces.context.ExceptionHandlerFactory;

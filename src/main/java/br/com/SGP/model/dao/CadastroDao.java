@@ -1,7 +1,7 @@
-package br.com.devmedia.java.cadastro.model.dao;
+package br.com.SGP.model.dao;
 
-import br.com.devmedia.java.cadastro.exception.CadastroException;
-import br.com.devmedia.java.cadastro.model.entities.Cadastro;
+import br.com.SGP.exception.CadastroException;
+import br.com.SGP.model.entities.Cadastro;
 import java.util.List;
 
 import javax.persistence.EntityManager;

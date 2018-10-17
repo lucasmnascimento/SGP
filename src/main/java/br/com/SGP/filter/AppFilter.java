@@ -1,6 +1,6 @@
 package br.com.SGP.filter;
 
-import br.com.devmedia.java.cadastro.model.entities.Usuario;
+import br.com.SGP.model.entities.Usuario;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;

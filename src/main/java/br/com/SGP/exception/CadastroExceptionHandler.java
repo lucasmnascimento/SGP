@@ -1,4 +1,4 @@
-package br.com.devmedia.java.cadastro.exception;
+package br.com.SGP.exception;
 
 import javax.faces.FacesException;
 import javax.faces.application.NavigationHandler;

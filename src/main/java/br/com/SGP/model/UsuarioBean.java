@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.devmedia.java.cadastro.model;
+package br.com.SGP.model;
 
-import br.com.devmedia.java.cadastro.model.dao.UsuarioDAO;
-import br.com.devmedia.java.cadastro.model.entities.Usuario;
+import br.com.SGP.model.dao.UsuarioDAO;
+import br.com.SGP.model.entities.Usuario;
 import java.io.Serializable;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;

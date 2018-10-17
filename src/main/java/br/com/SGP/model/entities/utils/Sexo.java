@@ -1,4 +1,4 @@
-package br.com.devmedia.java.cadastro.model.entities.utils;
+package br.com.SGP.model.entities.utils;
 
 public enum Sexo {
 

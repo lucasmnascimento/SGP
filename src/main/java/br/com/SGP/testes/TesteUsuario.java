@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testes;
+package br.com.SGP.testes;
 
-import br.com.devmedia.java.cadastro.model.dao.UsuarioDAO;
-import br.com.devmedia.java.cadastro.model.entities.Usuario;
+import br.com.SGP.model.dao.UsuarioDAO;
+import br.com.SGP.model.entities.Usuario;
 
 /**
  *

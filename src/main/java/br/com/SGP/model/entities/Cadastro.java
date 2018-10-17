@@ -1,8 +1,8 @@
-package br.com.devmedia.java.cadastro.model.entities;
+package br.com.SGP.model.entities;
 
-import br.com.devmedia.java.cadastro.model.entities.utils.Estado;
-import br.com.devmedia.java.cadastro.model.entities.utils.EstadoCivil;
-import br.com.devmedia.java.cadastro.model.entities.utils.Sexo;
+import br.com.SGP.model.entities.utils.Estado;
+import br.com.SGP.model.entities.utils.EstadoCivil;
+import br.com.SGP.model.entities.utils.Sexo;
 import org.hibernate.validator.constraints.NotBlank;
 import org.hibernate.validator.constraints.br.CPF;
 

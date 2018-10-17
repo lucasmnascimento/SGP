@@ -1,4 +1,4 @@
-package br.com.devmedia.java.cadastro.model.dao;
+package br.com.SGP.model.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

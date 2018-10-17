@@ -1,10 +1,10 @@
-package br.com.devmedia.java.cadastro.model;
+package br.com.SGP.model;
 
-import br.com.devmedia.java.cadastro.model.dao.CadastroDao;
-import br.com.devmedia.java.cadastro.model.entities.Cadastro;
-import br.com.devmedia.java.cadastro.model.entities.utils.Estado;
-import br.com.devmedia.java.cadastro.model.entities.utils.EstadoCivil;
-import br.com.devmedia.java.cadastro.model.entities.utils.Sexo;
+import br.com.SGP.model.dao.CadastroDao;
+import br.com.SGP.model.entities.Cadastro;
+import br.com.SGP.model.entities.utils.Estado;
+import br.com.SGP.model.entities.utils.EstadoCivil;
+import br.com.SGP.model.entities.utils.Sexo;
 import java.util.ArrayList;
 import java.util.List;
 
